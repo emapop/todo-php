@@ -1,0 +1,149 @@
+body {
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+select {
+    width: 58.5%;
+    height: 45px;
+}
+table{
+    width: 53%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #ece8e8;
+}
+th, td{
+    border: none;
+    height: 45px;
+    padding: 2px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+tr:hover {
+    background: #F5F5F5;
+}
+
+form {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 10px 20px 20px 20px; 
+    border: 1.5px solid #020202; 
+    border-radius: 7px;
+}
+.navbar-main{
+    background-color: #cf462ef8;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.navbar-container{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding-left: 15px;
+}
+.navbar-text {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+a.navbar-text {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.main-container {
+    margin-top: 4%;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-group label {
+    display: flex;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 55%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1.3px solid black;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #559496;
+    border: none;
+    border-radius: 5px;
+    border: 1.9px dashed black;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.edit-onclick{
+    cursor:pointer; 
+    color: black
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 17px 20px;
+    color: white;
+    border-radius: 3px;
+    background: #800000ba;
+    
+    margin-right: -35px;
+}
+.msg {
+    margin: 15px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 44%;
+    text-align: center;
+}
+.info-and-text {
+    display: flex;
+}
+.importance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.importance-green {
+    background-color: rgba(0, 128, 0, 0.50);
+}
+.importance-yellow {
+    background-color: rgba(255, 255, 0, 0.50);
+}
+.importance-red {
+    background-color: rgba(255, 0, 0, 0.50);
+}
+a {
+    text-decoration: none;
+}
